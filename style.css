@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+button{
+    display: block; 
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    
+}
+.result{
+    width: 255px; 
+    height: 50px;
+    text-align: right;
+    font-size: 35px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+button{
+    border-radius: 30px;
+    border: none;
+}
+button:hover{
+  background-color: white;
+  color: black;
+}
+#numbers{
+    background-color: #505050;
+    color: white;
+    font-size: 22px;
+}
+#numbers:hover{
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+#operations{
+    background-color: #FF9500;
+    color: white;
+    font-size: 22px;
+}
+#operations:hover{
+    background-color: rgb(255, 165, 30);
+    color: white;
+}
+#functions{
+    background-color: D4D4D2;
+    color: black;
+    font-size: 22px;
+}
+

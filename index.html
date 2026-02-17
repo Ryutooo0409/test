@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">   
+        <div>
+    <div>
+        <input class="result" id="result" type="text">
+    </div>
+    <div style="display: flex; justify-content: space-between; border: 2px solid black; height: 380px; width: 260px; margin-top: 10px;">
+        <div style="display: flex; justify-content: space-between; flex-direction: column;">
+        <button id="functions" onclick="returnOp('%')">
+            %
+        </button>
+        <button id="functions" onclick="inverse()">
+            1/x
+        </button>
+        <button id="numbers" onclick="clicked(7)">
+            7
+        </button> 
+        <button id="numbers" onclick="clicked(4)">
+            4
+        </button> 
+        <button id="numbers" onclick="clicked(1)">
+            1
+        </button> 
+        <button id="numbers" onclick="minusPlus()">
+            +/-
+        </button>
+    </div>
+    <div style="display: flex; justify-content: space-between; flex-direction: column;">
+        <button id="functions" onclick="clearInput()">
+            CE
+        </button> 
+        <button id="functions" onclick="square()">
+            x²
+        </button>
+        <button id="numbers" onclick="clicked(8)">
+            8
+        </button> 
+        <button id="numbers" onclick="clicked(5)">
+            5
+        </button> 
+        <button id="numbers" onclick="clicked(2)">
+            2
+        </button>
+        <button id="numbers" onclick="clicked(0)">
+            0
+        </button> 
+    </div>
+    <div style="display: flex; justify-content: space-between; flex-direction: column;">
+        <button id="functions" onclick="clearAll()">
+            C
+        </button>
+        <button id="functions" onclick="sqrt()">
+            √x
+        </button>
+        <button id="numbers" onclick="clicked(9)">
+            9
+        </button>
+        <button id="numbers" onclick="clicked(6)">
+            6
+        </button>
+        <button id="numbers" onclick="clicked(3)">
+            3
+        </button>
+        <button id="numbers" onclick="dot()">
+            .
+        </button>
+    </div>
+    <div style="display: flex; justify-content: space-between; flex-direction: column;">
+        <button id="operations" onclick="backSpace()">
+            ⌫
+        </button> 
+        <button id="operations" onclick="returnOp('/')">
+            /
+        </button> 
+        <button id="operations" onclick="returnOp('*')">
+            ×
+        </button> 
+        <button id="operations" onclick="returnOp('-')">
+            -
+        </button> 
+        <button id="operations" onclick="returnOp('+')">
+            +
+        </button>
+        <button id="operations" onclick="equal()">
+            =
+        </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
